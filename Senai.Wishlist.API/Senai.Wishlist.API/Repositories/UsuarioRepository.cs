@@ -14,7 +14,7 @@ namespace Senai.Wishlist.API.Repositories
         {
             using (WishListContext ctx = new WishListContext())
             {
-                Usuarios usuarioBuscado = ctx.Usuarios.Include(x => x.Id).FirstOrDefault(x => x.Email == email && x.Senha == senha);
+                Usuarios usuarioBuscado = ctx.Usuarios.FirstOrDefault(x => x.Email == email && x.Senha == senha);
                 if(usuarioBuscado == null)
                 {
                     return null;

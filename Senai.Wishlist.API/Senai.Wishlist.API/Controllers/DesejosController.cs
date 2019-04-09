@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Senai.Wishlist.API.Domains;
@@ -22,15 +24,14 @@ namespace Senai.Wishlist.API.Controllers
             DesejoRepository = new DesejoRepository();
         }
 
+        [Authorize]
         [HttpGet]
         public IActionResult ListarDesejos()
         {
             try
             {
-                using (WishListContext ctx = new WishListContext())
-                {
-                    return Ok(ctx.Desejos.ToList());
-                }
+                int id = Convert.ToInt32(HttpContext.User.Claims.First(c => c.Type == JwtRegisteredClaimNames.Jti).Value);
+                return Ok(DesejoRepository.Listar(id));
             }
             catch (Exception ex)
             {
@@ -38,6 +39,7 @@ namespace Senai.Wishlist.API.Controllers
             }
         }
 
+        [Authorize]
         [HttpPost]
         public IActionResult Cadastar (Desejos desejo)
         {

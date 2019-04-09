@@ -10,6 +10,6 @@ namespace Senai.Wishlist.API.Interfaces
     {
         void Cadastar(Desejos desejo);
 
-        List<Desejos> Listar();
+        List<Desejos> Listar(int id);
     }
 }

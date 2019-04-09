@@ -6,6 +6,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using Senai.Wishlist.API.Domains;
 using Senai.Wishlist.API.Interfaces;
 using Senai.Wishlist.API.Repositories;
@@ -41,8 +42,25 @@ namespace Senai.Wishlist.API.Controllers
                 {
                     new Claim(JwtRegisteredClaimNames.Email, usuario.Email),
                     new Claim(JwtRegisteredClaimNames.Jti, usuario.Id.ToString()),
-                    new Claim(ClaimTypes.Role),
+                    new Claim(ClaimTypes.Role, usuario.Id.ToString()),
                 };
+
+                var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("SenaiWishlistAPI-chave-autenticacao"));
+
+                var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+                var token = new JwtSecurityToken(
+                    issuer: "SenaiWishlistAPI",
+                    audience: "SenaiWishlistAPI",
+                    claims: claims,
+                    expires: DateTime.Now.AddMinutes(30),
+                    signingCredentials: creds
+                    );
+
+                return Ok(new
+                {
+                    token = new JwtSecurityTokenHandler().WriteToken(token)
+                });
             }
             catch (Exception ex)
             {

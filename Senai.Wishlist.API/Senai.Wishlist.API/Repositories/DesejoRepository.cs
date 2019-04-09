@@ -14,9 +14,16 @@ namespace Senai.Wishlist.API.Repositories
             throw new NotImplementedException();
         }
 
-        public List<Desejos> Listar()
+        public List<Desejos> Listar(int id)
         {
-            throw new NotImplementedException();
+            using (WishListContext ctx = new WishListContext())
+            {
+
+                Usuarios usuario;
+                usuario = ctx.Usuarios.FirstOrDefault(x => x.Id == id);
+
+                return ctx.Desejos.Where(x => x.IdUsuarios == usuario.Id).ToList();
+            }
         }
     }
 }

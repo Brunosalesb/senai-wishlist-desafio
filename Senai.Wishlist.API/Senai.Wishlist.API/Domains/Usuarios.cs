@@ -15,5 +15,6 @@ namespace Senai.Wishlist.API.Domains
         public string Senha { get; set; }
 
         public ICollection<Desejos> Desejos { get; set; }
+
     }
 }
