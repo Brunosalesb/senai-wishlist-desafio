@@ -1,0 +1,62 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+}
+
+body{
+    background-color: #033269;
+}
+
+.topo img{
+    float: left;
+    min-width: 150px;
+    min-height: 150px;
+}
+
+.topo h1{
+    color: #FF4500;
+    text-shadow:2px 2px black;
+    font-size: 80px;
+    padding: 50px 5px 0 0;
+}
+
+.topo{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailInput{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#email{
+    width: 20%;
+}
+
+.senhaInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#senha{
+    width: 20%;
+}
+
+.botao{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
