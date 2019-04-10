@@ -26,3 +26,21 @@ C:\Users\51418943800\Desktop\SPRINT 4 (FRONTEND)\Desafio\senai-wishlist-desafio\
 C:\Users\51418943800\Desktop\SPRINT 4 (FRONTEND)\Desafio\senai-wishlist-desafio\Senai.Wishlist.API\Senai.Wishlist.API\obj\Debug\netcoreapp2.1\Senai.Wishlist.API.RazorTargetAssemblyInfo.cache
 C:\Users\51418943800\Desktop\SPRINT 4 (FRONTEND)\Desafio\senai-wishlist-desafio\Senai.Wishlist.API\Senai.Wishlist.API\obj\Debug\netcoreapp2.1\Senai.Wishlist.API.dll
 C:\Users\51418943800\Desktop\SPRINT 4 (FRONTEND)\Desafio\senai-wishlist-desafio\Senai.Wishlist.API\Senai.Wishlist.API\obj\Debug\netcoreapp2.1\Senai.Wishlist.API.pdb
+<<<<<<< HEAD
+=======
+>>>>>>> 7d7165d7bd057a5a18b6950be50d58d9948a5c77
+C:\Users\50068691866\Desktop\desafio2.0\senai-wishlist-desafio\Senai.Wishlist.API\Senai.Wishlist.API\bin\Debug\netcoreapp2.1\Senai.Wishlist.API.deps.json
+C:\Users\50068691866\Desktop\desafio2.0\senai-wishlist-desafio\Senai.Wishlist.API\Senai.Wishlist.API\bin\Debug\netcoreapp2.1\Senai.Wishlist.API.runtimeconfig.json
+C:\Users\50068691866\Desktop\desafio2.0\senai-wishlist-desafio\Senai.Wishlist.API\Senai.Wishlist.API\bin\Debug\netcoreapp2.1\Senai.Wishlist.API.runtimeconfig.dev.json
+C:\Users\50068691866\Desktop\desafio2.0\senai-wishlist-desafio\Senai.Wishlist.API\Senai.Wishlist.API\bin\Debug\netcoreapp2.1\Senai.Wishlist.API.dll
+C:\Users\50068691866\Desktop\desafio2.0\senai-wishlist-desafio\Senai.Wishlist.API\Senai.Wishlist.API\bin\Debug\netcoreapp2.1\Senai.Wishlist.API.pdb
+C:\Users\50068691866\Desktop\desafio2.0\senai-wishlist-desafio\Senai.Wishlist.API\Senai.Wishlist.API\obj\Debug\netcoreapp2.1\Senai.Wishlist.API.csprojAssemblyReference.cache
+C:\Users\50068691866\Desktop\desafio2.0\senai-wishlist-desafio\Senai.Wishlist.API\Senai.Wishlist.API\obj\Debug\netcoreapp2.1\Senai.Wishlist.API.csproj.CoreCompileInputs.cache
+C:\Users\50068691866\Desktop\desafio2.0\senai-wishlist-desafio\Senai.Wishlist.API\Senai.Wishlist.API\obj\Debug\netcoreapp2.1\Senai.Wishlist.API.RazorAssemblyInfo.cache
+C:\Users\50068691866\Desktop\desafio2.0\senai-wishlist-desafio\Senai.Wishlist.API\Senai.Wishlist.API\obj\Debug\netcoreapp2.1\Senai.Wishlist.API.RazorAssemblyInfo.cs
+C:\Users\50068691866\Desktop\desafio2.0\senai-wishlist-desafio\Senai.Wishlist.API\Senai.Wishlist.API\obj\Debug\netcoreapp2.1\Senai.Wishlist.API.AssemblyInfoInputs.cache
+C:\Users\50068691866\Desktop\desafio2.0\senai-wishlist-desafio\Senai.Wishlist.API\Senai.Wishlist.API\obj\Debug\netcoreapp2.1\Senai.Wishlist.API.AssemblyInfo.cs
+C:\Users\50068691866\Desktop\desafio2.0\senai-wishlist-desafio\Senai.Wishlist.API\Senai.Wishlist.API\obj\Debug\netcoreapp2.1\Senai.Wishlist.API.RazorTargetAssemblyInfo.cache
+C:\Users\50068691866\Desktop\desafio2.0\senai-wishlist-desafio\Senai.Wishlist.API\Senai.Wishlist.API\obj\Debug\netcoreapp2.1\Senai.Wishlist.API.dll
+C:\Users\50068691866\Desktop\desafio2.0\senai-wishlist-desafio\Senai.Wishlist.API\Senai.Wishlist.API\obj\Debug\netcoreapp2.1\Senai.Wishlist.API.pdb
+>>>>>>> f4a58850a879d243d28dad3bd5f61ecc18e8e094
