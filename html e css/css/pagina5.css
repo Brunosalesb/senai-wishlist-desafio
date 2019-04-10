@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #83BEDF;
+}
+
+.top{
+    display: flex;
+    margin-left: 350px;
+    margin-top: -100px;
+}
+
+.logo img{
+    width: 142px;
+    height: 138px;
+    margin-top: 150px;
+}
+
+.titulo{
+    font-family: Tahoma;
+    font-size: 1.8em;
+    margin-top: 180px;
+    color: #FF4500;
+    margin-left:15px;
+}
+
+.quadrado{
+    margin-top: -40px;
+    margin-left: 60px;
+    background-color: #375BBF;
+    height: 50px;
+    width: 280px;
+}
+
+.façadesejo h2{
+    margin-top: 200px;
+    margin-left: 90px;
+    font-family: Tahoma;
+    font-size: 1.7em;
+    color: white;
+}
+
+.meio{
+    display: flex;
+    margin-top: 50px;
+}
+
+.nome1{
+    font-family: Tahoma;
+    font-size: 1.8em;
+    margin-left: 500px;
+}
+
+.nome2{
+    font-family: Tahoma;
+    font-size: 1.8em;
+    margin-left: 200px;
+    margin-top: 5px;
+}
+
+.fundo1{
+    background-color: #49D06A;
+    height: 150px;
+    width: 600px;
+    margin-top: 80px;
+    margin-left: -500px;
+}
+
+.fundo2{
+    background-color: #AEEABD;
+    height: 150px;
+    width: 600px;
+    margin-top: 270px;
+    margin-left: -600px;
+}
+
+.fundo3{
+    background-color: #49D06A;
+    height: 150px;
+    width: 600px;
+    margin-top: 460px;
+    margin-left: -600px;
+}
