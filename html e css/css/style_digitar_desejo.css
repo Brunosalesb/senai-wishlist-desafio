@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma;
+    background-color: #83BEDF; 
+}
+
+/* Deixa o fundo azul */
+
+
+.posicionar{
+    margin-left: 35%;
+    /*right: -40vw;*/
+    top: 5vh;
+    position: relative;
+}
+
+.nome_site{
+    color: #FF4500;
+    font-size: 3em;
+    display: inline-flex; /*alinha o texto e a imagem*/
+}
+
+.texto{
+    margin-left: 10%;
+    /*right: -40vw;*/
+    top: 15vh;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.botao_sair{
+    display: inline-flex;
+    top: -19.5vh;
+    position: relative;
+    left: 95.5vw; 
+}
+
+.botao_sair input{
+    background: red;
+    height: 2em;
+    width: 4em;
+    font-size: 1em;
+    padding: 0.2em 0.2em;
+    color: #fff;
+}
+
+.botao_listar_desejos{
+    display: inline-flex;
+    top: -4.5vh;
+    position: relative;
+    left: 80vw; 
+}
+
+.botao_listar_desejos input{
+    background: blue;
+    height: 2em;
+    width: 9em;
+    font-size: 1em;
+    padding: 0.2em 0.2em;
+    color: #fff;
+}
+
+
+
+.formulario{
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+} /*Colocam os itens do formulário no centro da seção.*/
+
+.formulario_desejo form{
+    width: 90%;
+    margin-left: 10%;
+    /*right: -40vw;*/
+    /*display: flex;*/
+    top: 16vh;
+    position: relative;
+    flex-direction: column; /*Coloca os itens em forma de coluna*/
+    bottom: 2vh;
+}
+
+
+.formulario_desejo textarea{
+    width: 80%;
+    font-size: 1.2em;
+    padding: 0.5em 0.5em;
+    border-radius: 5px; /*Arredonda os itens*/
+    resize: none; /*Impede que o textarea seja aumentado ou diminuído pelo usuário*/
+    background-color: white; 
+}
+
+.formulario_desejo form input[type="button"]{
+    width: 10%;
+    height: 2em;
+    width: 6em;
+    margin-left: 35%;
+    margin-top: 1%;
+    /*background: #FF0000;*/
+    background: #FF4500;
+    border: 1em;
+    color: #fff;
+    padding: 0.1em 0em 0.2em 0em;
+} /*Serve para configurar apenas os itens do form que são botÕes*/
+
+.formulario_desejo form input{
+    height: 1em;
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 0.2em 0.2em;
+}
+
