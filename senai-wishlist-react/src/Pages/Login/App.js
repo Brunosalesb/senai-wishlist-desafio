@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import logo from '../../Assets/img/wishlist_fundo_escuro.png';
+import logo from '../../Assets/img/wishlist_fundo_claro.png';
 import '../../Assets/css/app.css';
 import Axios from 'axios'
 
@@ -24,13 +24,13 @@ export default class App extends Component {
   
   efetuaLogin(event){
     event.preventDefault();
-    Axios.post('http://localhost:5000/api/login',{
+    Axios.post('http://192.168.5.46:5000/api/login',{
       email : this.state.email,
       senha : this.state.senha
     })
     .then(data => {
       localStorage.setItem("wishlist-token", data.data.token);
-      this.props.history.push('/cadastrardesejo');
+      this.props.history.push('/listardesejo');
       console.log(data);
     })
     .catch(erro => {
